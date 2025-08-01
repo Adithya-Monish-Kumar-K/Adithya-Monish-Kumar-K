@@ -12,7 +12,7 @@ streak = match.group(1) if match else "0"
 # New badge URL
 new_badge = (
     "https://github-readme-streak-stats.herokuapp.com"
-    f"?user=Adithya-Monish-Kumar-K&theme=dark&date_format=M%20j%5B%2C%20Y%5D&streak={streak}"
+    f"?user=Adithya_Monish_Kumar_K&theme=dark&date_format=M%20j%5B%2C%20Y%5D&streak={streak}"
 )
 
 # Replace existing badge URL in README.md
