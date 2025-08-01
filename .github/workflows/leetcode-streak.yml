@@ -1,0 +1,30 @@
+name: Update LeetCode Streak Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'       # daily at midnight UTC
+  workflow_dispatch:         # allows manual run
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Generate streak badge
+        uses: jaebradley/leetcode-streak@v1
+        with:
+          user: Adithya_Monish_Kumar_K    # your LeetCode handle
+          token: ${{ secrets.GITHUB_TOKEN }}  # built-in
+
+      - name: Commit & push streak.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update LeetCode streak"
+          git push
