@@ -54,6 +54,7 @@
   <img src="https://img.shields.io/badge/Tinkercad-FF9800?style=for-the-badge&logo=tinkercad&logoColor=white" alt="Tinkercad"/>
   <img src="https://img.shields.io/badge/LucideReact-000000?style=for-the-badge&logo=lucide&logoColor=white" alt="Lucide React"/>
 </p>
+
 ---
 
 ## 📫 Contact
@@ -65,3 +66,4 @@
 
 
 ---
+
