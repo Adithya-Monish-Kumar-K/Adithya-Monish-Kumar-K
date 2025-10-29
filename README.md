@@ -17,7 +17,7 @@
 
 ## 🚀 About Me
 
-- 👨‍🎓 **B.Tech CSE Student** at Amrita Vishwa Vidyapeetham (Coimbatore, 3rd Year; CGPA 7.65)
+- 👨‍🎓 **B.Tech CSE Student** at Amrita Vishwa Vidyapeetham (Coimbatore, 3rd Year)
 - 💻 **Full-Stack & AI Enthusiast** building scalable web/mobile apps and integrating ML models.
 
 ---
@@ -66,4 +66,5 @@
 
 
 ---
+
 
